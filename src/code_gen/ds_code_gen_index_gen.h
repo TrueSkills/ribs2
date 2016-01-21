@@ -3,7 +3,7 @@
     RIBS is an infrastructure for building great SaaS applications (but not
     limited to).
 
-    Copyright (C) 2013 Adap.tv, Inc.
+    Copyright (C) 2016 TrueSkills, Inc.
 
     RIBS is free software: you can redistribute it and/or modify
     it under the terms of the GNU Lesser General Public License as published by
@@ -17,21 +17,9 @@
     You should have received a copy of the GNU Lesser General Public License
     along with RIBS.  If not, see <http://www.gnu.org/licenses/>.
 */
-#ifndef _DS_TYPES__H_
-#define _DS_TYPES__H_
+#ifndef __DS_CODE_GEN_INDEX_GEN__H_
+#define __DS_CODE_GEN_INDEX_GEN__H_
 
-typedef enum {
-    ds_type_int8_t,
-    ds_type_uint8_t,
-    ds_type_int16_t,
-    ds_type_uint16_t,
-    ds_type_int32_t,
-    ds_type_uint32_t,
-    ds_type_int64_t,
-    ds_type_uint64_t,
-    ds_type_float,
-    ds_type_double,
-    ds_type_var,
-} ds_type_t;
+void ds_code_gen_index_gen(const char *filename);
 
-#endif // _DS_TYPES__H_
+#endif
